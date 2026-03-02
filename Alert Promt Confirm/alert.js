@@ -7,5 +7,20 @@ prompt() -> show a message, a input textbox, it returns the input on ok or, if c
 confirm() -> show a message to confirm, returns true when ok is clicked and return false when cancel/esc is clicked
  */
 
-alert("You are loggedIn!");
-alert("Welcome");
+
+// Alert
+// alert("You are loggedIn!");
+// alert("Welcome");
+
+
+// Prompt
+let age = prompt("Enter your age", 20);
+
+// document.write(age);  
+
+if(age>=18){
+    document.write("You are Adult");
+}
+else{
+    document.write("You are Kid");
+}
