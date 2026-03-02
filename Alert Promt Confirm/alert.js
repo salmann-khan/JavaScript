@@ -14,13 +14,21 @@ confirm() -> show a message to confirm, returns true when ok is clicked and retu
 
 
 // Prompt
-let age = prompt("Enter your age", 20);
+// let age = prompt("Enter your age", 20);
 
-// document.write(age);  
+// // document.write(age);  
 
-if(age>=18){
-    document.write("You are Adult");
+// if(age>=18){
+//     document.write("You are Adult");
+// }
+// else{
+//     document.write("You are Kid");
+// }
+
+let number = confirm("Confirm Deleting?");
+if(number){
+    document.write("Deleted");
 }
 else{
-    document.write("You are Kid");
+    document.write("Not Deleted");
 }
