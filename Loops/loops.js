@@ -23,10 +23,20 @@
 //     document.write("Hi ");
 // }
 
-let sum = 0;
-for(let natural = 99; natural>=1; natural--)
-{
-    sum+=natural;
+// let sum = 0;
+// for(let natural = 99; natural>=1; natural--)
+// {
+//     sum+=natural;
 
+// }
+// document.write("The Sum is: " + sum );
+
+let sum = 0;
+let natural = 1;
+
+while(natural<=100)
+    {
+    sum+=natural;
+    natural++;
 }
-document.write("The Sum is: " + sum );
+document.write(sum);
