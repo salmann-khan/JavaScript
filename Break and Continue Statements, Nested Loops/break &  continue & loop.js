@@ -44,12 +44,12 @@
 // }
 
 
-// let count = 0;
-// while(count<10)
-// {
-//     count++;
-//     if(count%2 == 0){
-//         break;
-//     }
-//     document.write("Odd Number: " + count + "<br>");
-// }
+let count = 0;
+while(count<10)
+{
+    count++;
+    if(count%2 == 0){
+        break;
+    }
+    document.write("Odd Number: " + count + "<br>");
+}
