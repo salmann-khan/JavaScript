@@ -39,8 +39,15 @@
 //  let newType = Number(oldType);
 //  document.writeln(typeof newType);
 
- let oldType = "42";
+//  let oldType = true;
+//  document.writeln(typeof oldType);
+
+//  let newType = Number(oldType);
+//  document.writeln(typeof newType);
+
+ let oldType = 32;
  document.writeln(typeof oldType);
 
  let newType = Boolean(oldType);
+ document.writeln(newType);
  document.writeln(typeof newType);
