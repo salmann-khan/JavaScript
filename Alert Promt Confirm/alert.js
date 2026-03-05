@@ -25,10 +25,10 @@ confirm() -> show a message to confirm, returns true when ok is clicked and retu
 //     document.write("You are Kid");
 // }
 
-// let number = confirm("Confirm Deleting?");
-// if(number){
-//     document.write("Deleted");
-// }
-// else{
-//     document.write("Not Deleted");
-// }
+let number = confirm("Confirm Deleting?");
+if(number){
+    document.write("Deleted");
+}
+else{
+    document.write("Not Deleted");
+}
