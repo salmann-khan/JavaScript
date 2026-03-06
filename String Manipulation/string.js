@@ -27,6 +27,11 @@
 // let lastName = "Khan";
 // let result = firstName.concat(" ",lastName);
 
-let message = "This is message"; 
-let result = message.substr(5,2)
+let message = "   This is message   "; 
+// let result = message.substr(5,2);
+// let result = message.substring(5,20);
+// let result = message.indexOf('is',3);
+// let result = message.indexOf('is');
+// let result = message.lastIndexOf('e');
+let result = message.trimEnd();
 console.log(result);
