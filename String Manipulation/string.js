@@ -13,12 +13,20 @@
 // let lastName = "Khan";
 // console.log(firstName +" "+ lastName);
 
-let name = "Salman";
-if(name == "Salman")
-{
-    console.log("Equal");
+// let name = "Salman";
+// if(name == "Salman")
+// {
+//     console.log("Equal");
 
-}
-else{
-    console.log("Not Equals");
-}
+// }
+// else{
+//     console.log("Not Equals");
+// }
+
+// let firstName = "Salman";
+// let lastName = "Khan";
+// let result = firstName.concat(" ",lastName);
+
+let message = "This is message"; 
+let result = message.substr(5,2)
+console.log(result);
