@@ -40,4 +40,4 @@ let message = "   This is message   ";
 
 // let result = message.replace("is","iss");
 let result = message.includes("message");
-console.log(result);
+// console.log(result);
