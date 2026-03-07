@@ -35,9 +35,9 @@ let message = "   This is message   ";
 // let result = message.lastIndexOf('e');
 // let result = message.trimEnd();
 
-// let result = message.toUpperCase();
-// let result = message.toLowerCase();
+let result = message.toUpperCase();
+let result = message.toLowerCase();
 
-// // let result = message.replace("is","iss");
-// let result = message.includes("message");
-// // console.log(result);
+// let result = message.replace("is","iss");
+let result = message.includes("message");
+// console.log(result);
