@@ -39,5 +39,3 @@ let message = "   This is message   ";
 // let result = message.toLowerCase();
 
 // let result = message.replace("is","iss");
-let result = message.includes("message");
-console.log(result);
