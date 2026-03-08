@@ -38,6 +38,10 @@ let message = "   This is message   ";
 let result = message.toUpperCase();
 let result = message.toLowerCase();
 
+<<<<<<< HEAD
 // let result = message.replace("is","iss");
 let result = message.includes("message");
 // console.log(result);
+=======
+// let result = message.replace("is","iss");
+>>>>>>> 50b5b1a69342ba3f343cba248a5488433b87d9ba
