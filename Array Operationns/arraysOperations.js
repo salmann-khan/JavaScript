@@ -1,6 +1,6 @@
 // Array Operations
 
-let teams = ["Pakistan", "India", "England", "Austrailia"];
+// let teams = ["Pakistan", "India", "England", "Austrailia"];
 // console.log(teams.sort());
 
 // let teams = ["Pakistan", "India", "England", "Austrailia"];
@@ -28,10 +28,15 @@ let teams = ["Pakistan", "India", "England", "Austrailia"];
 // let newArr = arr1.concat(arr2);
 // console.log(newArr);
 
-let books = [
-    ["Maths", "Calculus"],
-    ["Bio", "Zoology"],
-    ["Computer", "Ai"]
-];
-let arr = books[1][0];
-console.log(arr);
+// let books = [
+//     ["Maths", "Calculus"],
+//     ["Bio", "Zoology"],
+//     ["Computer", "Ai"]
+// ];
+// let arr = books[1][0];
+// console.log(arr);
+
+let teams = ["Pakistan", "India", "England", "Austrailia"];
+for( let index = 0; index< teams.length; index++){
+    console.log(`Elements of Teams Array are: ${index} of ${teams[index]}`);
+}
