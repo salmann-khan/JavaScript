@@ -10,6 +10,5 @@
 let subjects = ["maths", "science", "computer", "english"];
 for(let i=0; i<4; i++){
     console.log(subjects[i]);
-    console.log("\n");
 
 }
