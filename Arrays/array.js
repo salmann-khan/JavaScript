@@ -4,7 +4,7 @@
 // let students = ["Salman", "Imran", "Kamran", "Ali", "Ahmed", "Huzaifa"];
 // console.log(students[4]);
 
-// let info = [1, "Ali", 60.60];
+// let info = [1, "", 60.60];
 // console.log(info[1]);
 
 let subjects = ["maths", "science", "computer", "english"];
