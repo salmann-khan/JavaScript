@@ -7,7 +7,7 @@
 // let info = [1, "Salman", 60.60];
 // console.log(info[1]);
 
-let subjects = ["maths", "science", "computer", "english"];
+let subjects = ["DSA", "science", "computer", "english"];
 for(let i=0; i<4; i++){
     console.log(subjects[i]);
 
