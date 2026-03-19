@@ -3,11 +3,10 @@
 
 // let students = ["Salman", "Imran", "Kamran", "Ali", "Ahmed", "Huzaifa"];
 // console.log(students[4]);
-
 // let info = [1, "Salman", 60.60];
 // console.log(info[1]);
 
-let subjects = ["DSA", "science", "computer", "english"];
+let subjects = ["DSA", "", "computer", "english"];
 for(let i=0; i<4; i++){
     console.log(subjects[i]);
 
