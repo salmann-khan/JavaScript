@@ -1,1 +1,1 @@
-//Basic Java
+//Basic JavaScript
